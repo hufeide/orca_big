@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>诗与画</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 40px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        h1 {
+            color: #e8d5b7;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 300;
+            letter-spacing: 8px;
+        }
+        .poem {
+            color: #d4c4a8;
+            line-height: 2;
+            font-size: 18px;
+            text-align: center;
+            white-space: pre-line;
+        }
+        .poem-title {
+            color: #f0e6d3;
+            font-size: 22px;
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+        .image-container {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+        .caption {
+            color: #888;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>诗与画</h1>
+
+        <div class="poem">
+            <div class="poem-title">《春夜》</div>
+            春风又绿江南岸，明月何时照我还。
+
+            烟雨蒙蒙笼古镇，流水潺潺绕青山。
+
+            花开彼岸人何在，鸟语林间自在鸣。
+
+            举杯邀月共醉眠，一梦悠然天地间。
+        </div>
+
+        <div class="image-container">
+            <img src="photo/landscape.jpg" alt="风景">
+            <div class="caption">春夜 · 江南</div>
+        </div>
+    </div>
+</body>
+</html>
