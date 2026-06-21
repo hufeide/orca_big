@@ -1,0 +1,12 @@
+{
+  "name": "photo-gallery",
+  "version": "1.0.0",
+  "description": "Simple personal photo gallery website",
+  "scripts": {
+    "validate": "echo 'Validation skipped for static site'",
+    "type-check": "echo 'Type check not applicable for static site'",
+    "lint": "echo 'Lint not applicable for static site'",
+    "test": "echo 'Tests not applicable for static site'"
+  },
+  "private": true
+}
